@@ -226,6 +226,9 @@ public class ColourActions {
                 brightness = brightnessModel.getNumber().intValue();
                 contrast = contrastModel.getNumber().intValue();
 
+                if (brightness == 0 && contrast == 0) {
+                    return;
+                }
                 // Create and apply filter
                 if(target.getSelection().isEmpty()) target.getImage().apply(new BrightnessContrastAdjustment(brightness, contrast));
                 else {
