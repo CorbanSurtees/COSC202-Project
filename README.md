@@ -5,7 +5,7 @@
 
 ANDIE is a non-destructive image editor which can be used to easily edit and manipulate images. The sequence of operations applied to the image is stored in an operations file, meaning that they can be undone or redone. None of the original image information is lost in this process. 
 
-[Click here](https://cosc202-team-b.cspages.otago.ac.nz/andie/) to open the ANDIE release page containing the JAR file download and the online Javadoc.
+[Click here](https://corbansurtees.github.io/COSC202-Project/) to open the ANDIE release page containing the JAR file download and the online Javadoc.
 
 
 ### Running the program
